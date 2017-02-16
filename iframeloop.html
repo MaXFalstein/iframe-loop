@@ -1,5 +1,27 @@
 <section id="IGPics"></section>
 
+v2:
+
+<script>
+var uri = ["BQEZJCqjYfJ", "BPdsskVjM5m", "BPbBbxIjpO4", "BPbBRx_jV5_", "BPbBJtHjgRO", "BPbBFB_g16v", "BPaw8OzDK7y", "BPPkaRpAH7c"];
+iframe(uri);
+function iframe() {
+	var i;
+	var curi = "";
+	for (i = 0; i < uri.length; i++) {
+	  curi = "https://www.instagram.com/p/" + uri[i] + "/embed";
+	  var iframe = document.createElement('iframe');
+	  iframe.src = encodeURI(curi);
+	  iframe.style.width = "710px";
+	  iframe.style.height = "960px";
+	  document.getElementById("IGPics").appendChild(iframe);
+	  console.log('iframe.contentWindow =', iframe.contentWindow);
+	}
+}
+</script>
+
+
+v1:
 <script>
 var i;
 var uri = ["BQEZJCqjYfJ", "BPdsskVjM5m", "BPbBbxIjpO4", "BPbBRx_jV5_", "BPbBJtHjgRO", "BPbBFB_g16v", "BPaw8OzDK7y", "BPPkaRpAH7c"];
