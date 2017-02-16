@@ -1,4 +1,4 @@
-# iframe-loop
+# [iframe-loop](https://github.com/MaXFalstein/iframe-loop/blob/master/iframeloop.html)
 
 Array based iframe creation loop
 
