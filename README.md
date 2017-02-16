@@ -2,6 +2,8 @@
 
 Array based iframe creation loop
 
-<script async src="//jsfiddle.net/maxfalstein/xgo345hu/4/embed/js,html,result/"></script>
+<script async src="https://jsfiddle.net/maxfalstein/xgo345hu/6/embed/"></script>
+
+<script async src="https://jsfiddle.net/maxfalstein/ba7cyjdy/2/embed/"></script>
 
 [Please view my blog post to see an example](http://blog.maxsaxedesign.co.uk/2017/02/04/max-instagram-using-dynamic-iframe/).
